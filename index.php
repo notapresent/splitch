@@ -5,8 +5,8 @@
     </head>
     <body>
         <form method=get action=feed.php>
-            <label for=url>URL
-                <input id=url type=text name=url value="http://conceptships.blogspot.com/feeds/posts/default?alt=rss">
+            <label for=url>FEED URL:
+                <input id=url type=text name=url value="">
             </label>
 
             <input type=submit value=Submit>
