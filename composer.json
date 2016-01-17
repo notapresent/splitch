@@ -1,4 +1,12 @@
 {
+    "name": "notapresent/splitch",
+    "description": "Split multi-image extries into single-image ones",
+    "authors": [
+        {
+            "name": "notapresent",
+            "email": "notapresent@gmail.com"
+        }
+    ],
     "require": {
         "fguillot/picofeed": "@stable"
     }
