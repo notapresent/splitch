@@ -8,6 +8,15 @@
         }
     ],
     "require": {
-        "fguillot/picofeed": "@stable"
+        "fguillot/picofeed": "@stable",
+        "php-kit/composer-bower-plugin": "dev-master"
+    },
+
+    "extra": {
+        "bower": {
+            "require": {
+                "bootstrap": "~3.3.6"
+            }
+        }
     }
 }

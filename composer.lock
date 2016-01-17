@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2fe3c3702ff9a530a77c66f105aba644",
-    "content-hash": "68df026e4e4baf59ff34e4bc09460104",
+    "hash": "ea1e485265b3e789495583ddfeee58e4",
+    "content-hash": "48c30174fd78470159c7000855ecf9b9",
     "packages": [
         {
             "name": "fguillot/picofeed",
@@ -54,6 +54,63 @@
             "description": "Modern library to handle RSS/Atom feeds",
             "homepage": "https://github.com/fguillot/picoFeed",
             "time": "2016-01-11 17:22:24"
+        },
+        {
+            "name": "php-kit/composer-bower-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-kit/composer-bower-plugin.git",
+                "reference": "7bbe048c8bd368e32aab5a0d091d1f944bcd605e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-kit/composer-bower-plugin/zipball/7bbe048c8bd368e32aab5a0d091d1f944bcd605e",
+                "reference": "7bbe048c8bd368e32aab5a0d091d1f944bcd605e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "dev-master"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PhpKit\\ComposerBowerPlugin\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpKit\\ComposerBowerPlugin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Claudio Silva",
+                    "email": "claudio.silva@impactwave.com"
+                },
+                {
+                    "name": "Impactwave",
+                    "email": "impactwave@impactwave.com",
+                    "homepage": "http://impactwave.com"
+                }
+            ],
+            "description": "Composer plugin for installing Bower packages",
+            "homepage": "https://github.com/php-kit/composer-bower-plugin",
+            "keywords": [
+                "assets",
+                "bower",
+                "composer",
+                "dependency",
+                "front-end",
+                "packages",
+                "plugin"
+            ],
+            "time": "2015-10-10 02:30:13"
         },
         {
             "name": "zendframework/zendxml",
@@ -105,7 +162,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "fguillot/picofeed": 0
+        "fguillot/picofeed": 0,
+        "php-kit/composer-bower-plugin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
