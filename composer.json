@@ -1,4 +1,12 @@
 {
+    "name": "notapresent/splitch",
+    "description": "Split multi-image RSS entries into single-image ones",
+    "authors": [
+        {
+            "name": "notapresent",
+            "email": "notapresent@gmail.com"
+        }
+    ],
     "require": {
         "fguillot/picofeed": "@stable"
     }
