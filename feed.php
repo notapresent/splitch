@@ -31,7 +31,7 @@ function url_to_filename($url) {
 $feed_url = urldecode($_GET['url']);
 
 $reader = new Reader;
-$resource = $reader->download($url);
+$resource = $reader->download($feed_url);
 
 $parser = $reader->getParser(
     $resource->getUrl(),
