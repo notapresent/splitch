@@ -36,7 +36,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" name=url placeholder="Source feed URL.">
                         <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">Go!</button>
+                            <button class="btn btn-primary" type="submit" id="go">Go!</button>
                         </span>
                     </div><!-- /input-group -->
 
@@ -58,5 +58,6 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="static/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>
