@@ -61,7 +61,7 @@ foreach($feed->items as $item) {
 $writer = new Rss20();
 $writer->title = $feed->title;
 $writer->site_url = $feed->site_url;
-$writer->feed_url = "http://{$_SERVER['HTTP_HOST']}/feed.php?url=" . urlencode($feed_url);
+$writer->feed_url = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}/?url=" . urlencode($feed_url);
 $writer->description = "{$feed->description}\nModified by Splitch (http://{$_SERVER['HTTP_HOST']})";
 
 $writer->items = $image_items;
